@@ -22,6 +22,5 @@ The following are the results:
 ## Hyperparameters
 I used Optuna to finetune the hyperparameters for the trained model. To keep compute requirements down I optimised learning rate, batch size and number of epochs. Learning rate and number of epochs were the most important out of the three I tested.
 
-
-
+## Model
 The [model](https://huggingface.co/Gur212/LHL_LLM_Project) is available to use on HuggingFace.
