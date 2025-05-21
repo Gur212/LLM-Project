@@ -35,7 +35,7 @@ We can see from the results that pre-trained models can benefit greatly in class
 
 
 ## Hyperparameters
-I used Optuna to finetune the hyperparameters for the trained model. To keep compute requirements down I optimised learning rate, batch size and number of epochs. Learning rate and number of epochs were the most important out of the three I tested.
+I used Optuna to finetune the hyperparameters for the trained model. To keep compute requirements down I optimised learning rate, batch size and number of epochs. Learning rate and number of epochs were the most important out of the three I tested, causing a larger variance of scores. A higher number of epochs always resulted in better scores, but came at the cost of taking much longer to complete. Within the range I tested, a higher learning rate also yielded better results when all else was equivalent. This means that I could likely improve results by expanding the search space further.
 
 ## Model
 The [model](https://huggingface.co/Gur212/LHL_LLM_Project) is available to use on HuggingFace.
